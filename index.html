@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- modify this form HTML and place wherever you want your form -->
+
+    <div class="display">
+        <div class="my-from-box">
+            <form id="my-form" action="https://formspree.io/f/xleanepe" method="POST">
+                <label>Email:</label>
+                <input required type="email" name="email" />
+                <label>Phone:</label>
+                <input required type="number" name="phone" />
+                <label>Message:</label>
+                <textarea style="resize: none;" name="message" id="" cols="30" rows="10"></textarea>
+                <button id="my-form-button">Submit</button>
+                <h2 id="my-form-status"></h2>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

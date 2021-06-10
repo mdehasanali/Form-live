@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display {
+    background: url("https://i.ytimg.com/vi/dip_8dmrcaU/maxresdefault.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.my-from-box {
+    width: 450px;
+    padding: 30px 20px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(17, 248, 248, 0.5);
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my-from-box #my-form label {
+    text-align: left !important;
+    font-size: 20px;
+}
+
+.my-from-box #my-form input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background: rgb(187, 187, 187, 0.8);
+    transition: 0.2s;
+}
+
+.my-from-box #my-form input,
+textarea:focus {
+    background-color: white;
+}
+
+#my-form-button {
+    padding: 5px 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#my-form-button:hover {
+    color: red;
+    background: transparent;
+    transition: 0.3s;
+}
